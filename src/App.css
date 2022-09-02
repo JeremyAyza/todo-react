@@ -1,0 +1,80 @@
+html,body{
+  min-height: 100vh;
+  background-color: #1b1b32;
+  font-family: Lato,sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1{
+  color: #1b1b32;
+  font-size: 2rem;
+  font-family: Roboto,sans-serif;
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+body{
+  height: 500px;
+}
+
+.aplicacion-tarea{
+  min-height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.freeCodeCamp-logo-contenedor{
+  height: 120px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px rgb(255, 255, 255) solid;
+  overflow: hidden;
+}
+
+.freeCodeCamp-logo{
+  width: auto;
+  height: 170px;
+  
+}
+
+/* Lista de tareas */
+.todo-list-principal{
+  min-width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  justify-content: center;
+  border-radius: 26px;
+  
+  
+
+
+}
+
+.icon{
+  padding-top: 6px;
+}
+
+@media (max-width:600px) {
+  
+  .aplicacion-tarea{
+    transform: scale(0.8);
+  }
+  .todo-list-principal{
+    min-width: 400px;
+    padding: 20px 10px;
+  }
+
+}

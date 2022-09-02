@@ -1,0 +1,75 @@
+.tarea-contenedor{
+    width: 100%;
+    min-height: 65px;
+    background-color: #1b1b32;
+    /* margin: 5px 0;
+    padding: 10px; */
+    display: flex;
+    border: 3.5px solid white;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin: 2px 0;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+}
+
+.tarea-texto{
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+    
+
+}
+
+
+
+
+.tarea-contenedor-btnDelete{
+    
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(132, 0, 255);
+}
+.tarea-contenedor-btnDelete:hover{
+    
+    font-size: 1.2rem;
+    background-color: rgb(111, 0, 214);
+}
+
+
+
+/* Tarea completada */
+
+
+/* Colores */
+.tarea-contenedor:nth-child(3n+1){
+    background-color: #1b1b32;
+
+}
+.tarea-contenedor:nth-child(3n+2){
+    background-color: #2a2a40;
+
+}
+.tarea-contenedor:nth-child(3n){
+    background-color: #3b3b4f;
+
+}
+
+
+
+
+
+
+.tarea-contenedor.completada{
+    background-color: rgb(132, 0, 255);
+    text-decoration: line-through;
+}
